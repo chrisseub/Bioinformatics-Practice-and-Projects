@@ -1,5 +1,6 @@
 # DNA Toolkit file
 import collections
+from DNA_Structures import *
 
 
 # Check the sequence to make sure it is a valid DNA string
