@@ -14,3 +14,6 @@ print(f'[2] + Nucleotide Frequency: {countNucFrequency(DNAStr)}\n')
 
 #Second Tutorial Execution
 print(f'[3] + DNA to RNA Transcription: {transcription(DNAStr)}\n')
+print(f"     {''.join(['| ' for c in range(len(DNAStr))])}")
+
+print(f"3'   {reverse_complement(DNAStr)}  5'\n")
