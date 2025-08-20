@@ -23,4 +23,4 @@ def transcription(seq):
 
 def reverse_complement(seq):
     """Swapping Adenine with Thymine and  Guanine with Cytosine, Reversing newly generated strings"""
-    return ''.join([DNA_ReverseComplement[nuc] for nuc in seq])[::-1]
+    return ''.join([DNA_ReverseComplement[nuc] for nuc in seq])
