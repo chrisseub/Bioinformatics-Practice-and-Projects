@@ -25,4 +25,4 @@ print(f"3' {colored(reverse_complement(DNAStr))}  5'\n")
 
 #Third Tutorial Execution, for GC content determination
 print(f'[5] + GC Content: {gc_content(DNAStr)}%\n')
-print(f'[6] + GC Content in Subsection k=5': {gc_content_subsec(DNAStr, k=5)}\n')
+print(f'[6] + GC Content in Subsection k=5: {gc_content_subsec(DNAStr, k=5)}\n')
